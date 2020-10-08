@@ -10,8 +10,10 @@ Bom dia, meu nome é **Fernando Basquiroto de Souza**. No ensino médio, eu tinh
 
 Na graduação me dediquei à outos projetos que não envolviam programação. Mas depois de me formar, comecei a trabalhar com **monitoramentos ambientais** e para melhorar o desenvolvimento dos meus trabalhos, voltei a programar. Comecei com **R para criar gráficos e análises estatísticas**, trabalhei um pouco com C++ para um projeto isolado de visão computacional e com **MATLAB para outros estudos**. Hoje estou estudando o uso de **Python para sensoriamento remoto** (para meu mestrado) e já pensando em utilizá-lo para outras análises.
 
-## Experiência (em breve)
+## Experiência
 
-### Redes sociais
-
-[LinkedIn](https://www.linkedin.com/in/fernandobsouza/) | [Curriculum Vitae](http://lattes.cnpq.br/3997130246510280) | [Blog 2 Engenheiros](http://2engenheiros.com/).
+* Membro de equipe multidisciplinar em Estudos de Impacto Ambientais e em Projetos de Recuperação de Áreas Degradadas;
+* Desenvolvimento de levantamentos ambientais com foco em pedologia e recursos hídricos;
+* Realização de ensaios de infiltração de água no solo e em argilas compactadas;
+* Instrutor em cursos de geoprocessamento e professor em disciplinas da graduação;
+* Criação de cursos online de geoprocessamento com QGIS e ArcGIS.
