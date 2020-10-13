@@ -15,14 +15,14 @@ Após adicionar tanto o MDE, quando os pontos, você terá algo similar à Figur
 
 _Tabela 1_:
 
-|   ID   |   X   |   Y   |
-|   --   |   -   |   -   |
-|   1   |   -49,4354   |   -28,0554   |
-|   2   |   -49,1240   |   -28,0554   |
-|   3   |   -48,7802   |   -28,0486   |
-|   4   |   -49,4150   |   -28,4485   |
-|   5   |   -49,1376   |   -28,4519   |
-|   6   |   -49,4218   |   -28,8961   |
+|   ID |  |   X |  |   Y   |
+|   -- |  |   - |  |   -   |
+|   1  |  |   -49,4354 |   |   -28,0554   |
+|   2  |  |   -49,1240 |   |   -28,0554   |
+|   3  |  |   -48,7802 |   |   -28,0486   |
+|   4  |  |   -49,4150 |   |   -28,4485   |
+|   5  |  |   -49,1376 |   |   -28,4519   |
+|   6  |  |   -49,4218 |   |   -28,8961   |
 
 Caso você não saiba como adicionar essas coordenadas no QGIS, [confira este vídeo](https://www.youtube.com/watch?v=FMJ6KO3Ytco).
 
