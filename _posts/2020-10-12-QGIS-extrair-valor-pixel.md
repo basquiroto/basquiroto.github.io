@@ -14,6 +14,7 @@ Utilizaremos o MDE da carta [SH-22-X-B](https://www.cnpm.embrapa.br/projetos/rel
 Após adicionar tanto o MDE, quando os pontos, você terá algo similar à Figura 1.
 
 _Tabela 1_
+
 | ID | X | Y |
 | -- | - | - |
 | 1 | -49,4354 | -28,0554 |
@@ -26,7 +27,8 @@ _Tabela 1_
 Caso você não saiba como adicionar essas coordenadas no QGIS, [confira este vídeo](https://www.youtube.com/watch?v=FMJ6KO3Ytco).
 
 _Figura 1_
-![Imagem mostrando QGIS com arquivos adicionados](https://github.com/basquiroto/basquiroto.github.io/blob/master/images/ext_pixel_value_comeco.png "Tela principal do QGIS contendo pontos e MDE")
+
+![Imagem mostrando QGIS com arquivos adicionados]({{ site.baseurl }}/images/ext_pixel_value_comeco.png "Tela principal do QGIS contendo pontos e MDE")
 
 Com isso, vá no menu Processar e clique em Caixa de Ferramenta (ou simplemente aperte Ctrl + Alt + T). 
 Busque pela ferramenta ‘Amostrar valores do raster’ (‘Sample raster values’) e em seguida, dê dois clique para abrir a ferramenta.
@@ -36,12 +38,14 @@ o nome da coluna onde serão salvos os valores; e onde você quer salvar o shape
 salvo na tabela de atributos).
 
 _Figura 2_
-![Janela da Ferramenta Amostrar valores do Raster](https://github.com/basquiroto/basquiroto.github.io/blob/master/images/ext_pixel_value_tool.png "Janela da Ferramenta Amostrar valores do Raster")
+
+![Janela da Ferramenta Amostrar valores do Raster]({{ site.baseurl }}/images/ext_pixel_value_tool.png "Janela da Ferramenta Amostrar valores do Raster")
 
 Após preencher os valores, clique em Executar.
 Um novo shapefile será adicionado ao QGIS e você terá uma coluna na tabela de atributos mostrando qual é o valor do pixel logo abaixo do ponto, conforme Figura 3.
 
 _Figura 3_
-![Tabela de atributos contendo os valores do MDE](https://github.com/basquiroto/basquiroto.github.io/blob/master/images/ext_pixel_value_saida.png?raw=true "Tabela de atributos contendo os valores do MDE")
+
+![Tabela de atributos contendo os valores do MDE]({{ site.baseurl }}/images/ext_pixel_value_saida.png "Tabela de atributos contendo os valores do MDE")
 
 Caso você utilize o ArcGIS, pode conferir este procedimento [neste tutorial](http://2engenheiros.com/2016/10/23/extraindo-dados-com-pontos-no-arcgis/).
