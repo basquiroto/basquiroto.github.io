@@ -135,7 +135,7 @@ _Figura 2_ - Imagem sem nuvem:
 
 _Figura 3_ - Imagem sem nuvem e com buffer:
 
-![Imagem sem nuvem e com buffer]({{ site.baseurl }}/imagem_003_Buffer.png "Imagem LANDSAT 8 sem nuvem e com buffer")
+![Imagem sem nuvem e com buffer]({{ site.baseurl }}/images/imagem_003_Buffer.png "Imagem LANDSAT 8 sem nuvem e com buffer")
 
 
 Algumas fontes consultadas (ou que serão consultadas) para desenvolver e melhorar o código.
