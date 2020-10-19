@@ -119,7 +119,7 @@ mapa = Mapdisplay(coord_center, {'Normal Image': img_ID,
 mapa.save("mask_buffer.html")
 ```
 
-Você pode conferir o código completo [clicando aqui]() e o resultado [clicando aqui]().
+Você pode conferir o código completo [clicando aqui](https://github.com/basquiroto/EEwP/blob/master/GEE_mask_buffer.py).
 
 Algumas fontes consultadas (ou que serão consultadas) para desenvolver e melhorar o código.
 > Sam Murphy. Cloud masking with Sentinel 2. Disponível em https://github.com/samsammurphy/cloud-masking-sentinel2/blob/master/cloud-masking-sentinel2.ipynb - Acesso em 19 out. 2020.
