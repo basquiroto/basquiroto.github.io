@@ -119,12 +119,26 @@ mapa = Mapdisplay(coord_center, {'Normal Image': img_ID,
 mapa.save("mask_buffer.html")
 ```
 
-Você pode conferir o código completo [clicando aqui](https://github.com/basquiroto/EEwP/blob/master/GEE_mask_buffer.py).
+Você pode conferir o código completo [clicando aqui](https://github.com/basquiroto/EEwP/blob/master/GEE_mask_buffer.py). 
+Uma amostra dos resultados é apresentado abaixo.
+
+_Figura 1_ - Imagem com nuvem:
+
+![Imagem com nuvem]({{ site.baseurl }}/images/imagem_001_Normal.png "Imagem LANDSAT 8 com nuvem")
+
+_Figura 2_ - Imagem sem nuvem:
+
+![Imagem sem nuvem]({{ site.baseurl }}/images/imagem_003_Buffer.png "Imagem LANDSAT 8 sem nuvem")
+
+_Figura 3_ - Imagem sem nuvem e com buffer:
+
+![Imagem sem nuvem e com buffer]({{ site.baseurl }}/images/imagem_002_SemNuvem.png "Imagem LANDSAT 8 sem nuvem e com buffer")
+
 
 Algumas fontes consultadas (ou que serão consultadas) para desenvolver e melhorar o código.
-> Sam Murphy. Cloud masking with Sentinel 2. Disponível em https://github.com/samsammurphy/cloud-masking-sentinel2/blob/master/cloud-masking-sentinel2.ipynb - Acesso em 19 out. 2020.
+* Sam Murphy. Cloud masking with Sentinel 2. Disponível em https://github.com/samsammurphy/cloud-masking-sentinel2/blob/master/cloud-masking-sentinel2.ipynb - Acesso em 19 out. 2020.
 
-> Open Geo Blog. Working with Bitmasks. Disponível em https://mygeoblog.com/2019/07/25/working-with-bitmasks/ - Acesso em 19 out. 2020.
+* Open Geo Blog. Working with Bitmasks. Disponível em https://mygeoblog.com/2019/07/25/working-with-bitmasks/ - Acesso em 19 out. 2020.
 
-> Gonzalo Garcia. Cloud masking of multitemporal remote sensing images. Disponível em https://github.com/IPL-UV/ee_ipl_uv/blob/master/examples/multitemporal_cloud_masking_sample.ipynb - Acesso em 19 out. 2020.
+* Gonzalo Garcia. Cloud masking of multitemporal remote sensing images. Disponível em https://github.com/IPL-UV/ee_ipl_uv/blob/master/examples/multitemporal_cloud_masking_sample.ipynb - Acesso em 19 out. 2020.
 
