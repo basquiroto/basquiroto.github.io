@@ -1,9 +1,11 @@
 ---
 layout: post
-title: Como aplicar uma máscara de nuvens e sombra em LANDSAT 8 no Earth Engine com Python?
+title: Como aplicar uma máscara de nuvens e sombra com buffer em LANDSAT 8 no Earth Engine com Python?
 ---
 
 A aplicação de uma máscara de nuvens e sombra para as imagens LANDSAT 8 pode ser realizado usando a banda 'pixel_qa' e bitmasks. 
+Em algumas situações, precisamos ainda aplicar um buffer para remover imperfeições que possam existir nas proximidades (neste caso,
+usaremos a função focal_min). 
 Além disso, iremos usar o código disponibilizado por Cesar Aybar ([GitHub](https://github.com/csaybar)) para visualizar os resultados, 
 sendo a função criada por ele apresentada abaixo.
 
@@ -35,6 +37,7 @@ def Mapdisplay(center, dicc, Tiles="OpensTreetMap",zoom_start=10):
 ```
 
 Agora, vamos criar algumas funções para remover as nuvens e sombras em apenas uma imagem ou numa coleção de imagens (neste ultimo caso, usando a função .map()).
+Onde a função focal_min() aparecer, será aplicado um buffer de 100 metros ou este deverá ser especificado ao chamar a função.
 
 ```python
 def maskL8SR(imagem):
