@@ -7,21 +7,21 @@ Ultimamente, meu QGIS tem demorado muito para iniciar. As vezes ele fica um temp
 Busquei algumas soluções e encontrei esse pedaço de código que permite que você verifique qual plugin demora mais
 para carregar. É um cógido simples, que é rodado dentro do terminal Python do QGIS (Ctrl+Alt+P ou Complementos > Python).
 
-```python
+``python
 import pprint
 pprint.pprint(qgis.utils.plugin_times)
-```
+``
 
 O resultado será algo similar ao seguinte:
 
-```
+`
 {'GarminCustomMap': '2.375000s',
  'db_manager': '0.031250s',
  'mapbiomascollection': '0.000000s',
  'processing': '4.359375s',
  'quick_map_services': '3.828125s',
  'splitmultipart': '0.031250s'}
- ```
+ `
  
  Veja que a partir desses dados, posso desligar o plugin GarminCustomMap para tentar acelerar as coisas. Você pode desligar os plugins
  em Complementos > Gerenciar e Instalar Complementos.
