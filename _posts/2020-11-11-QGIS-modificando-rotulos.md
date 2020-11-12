@@ -44,6 +44,14 @@ END
 concat(AREA, ' km2')
 ```
 
+#### Mostar apenas a cota das curvas principais (5 em 5 metros)
+
+```
+CASE
+WHEN  ("ELEVATION" / 5) - to_int("ELEVATION" / 5) IS 0 THEN  "ELEVATION" 
+END
+```
+
 Esses são alguns exemplos que você pode começar a adotar nos seus mapas. Lembrando que as expressões são usadas em vários locais no QGIS.
 Além disso, você pode utilizar ao invés do Rótulo Simples, o Rótulo Baseado em Regra, que usa justamente esses tipos de expressões
 apresentadas aqui.
