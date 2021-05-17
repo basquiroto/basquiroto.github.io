@@ -11,6 +11,8 @@ description: Engenheiro Ambiental
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/basquiroto/basquiroto.github.io/master/images/logo-basq.png
 
+# theme
+theme: jekyll-theme-midnight
 
 #
 # Flags below are optional
